@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>todolist</title>
+	<!-- 手机端 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/base.css">
+	
+</head>
+<body>
+	<hgroup>
+		<h1>todolist</h1>
+	</hgroup>
+	<nav>
+		<div class="nav-list">
+			<input type="text" placeholder="请输入待办事情">
+			<input type="button" value="提交">
+			<button class="delAll">清除所有</button>
+		</div>
+	</nav>
+	<section class="now">
+	<header>
+		<h3>正在进行</h3>
+		<div class="num">0</div>
+	</header>
+	<ul class="list">
+		<li>
+			<input type="checkbox">
+			<div class="cont"></div>
+			<input type="button" value="del"class="del" >
+		</li>
+	</ul>
+		
+	</section>
+	<section class="com">
+		<header>
+		<h3>已经完成</h3>
+		<div class="num">0</div>
+		</header>
+		<ul class="list">
+			<li>
+				<input type="checkbox">
+				<div class="cont"></div>
+				<input type="button" value="del"class="del" >
+			</li>
+		</ul>
+	</section>
+	
+	<script src="./js/index.js"></script>
+</body>
+</html>

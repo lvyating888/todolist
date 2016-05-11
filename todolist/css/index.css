@@ -1,0 +1,163 @@
+hgroup{
+	text-align: center;
+	line-height: 80px;
+	color: #fff;	
+}
+hgroup h1{
+	font-size: 30px;
+}
+
+body{
+	background: url(../img/111.jpg);
+}
+nav{
+	height:40px;
+}
+.nav-list{
+	height:100%;
+	text-align: center;
+}
+.nav-list input{
+	width:488px;
+	box-sizing:border-box;
+	padding:0;
+	line-height: 30px;
+	margin-top:2px;
+}
+.nav-list input[type=button]{
+	width:90px;
+	box-sizing:border-box;
+	padding:0;
+	height: 34px;
+	background-color: #88C80A;
+	border: 0;
+	color: #fff;
+}
+section{
+	width:700px;
+	margin:20px auto;
+	/*background: url(../img/11.png);*/
+	/*border: 1px solid #ddd*/
+}
+header{
+	width:100%;
+	height: 40px;
+}
+header h3{
+	float: left;
+	height: 100%;
+	margin-left:12px;
+}
+.list{
+	width:100%;
+	padding: 20px 10px;
+}
+.list li{
+	width:680px;
+	height: 40px;
+	background: #ddd;
+}
+.list input[type=checkbox]{
+	float:left;
+	width:40px;
+	height:40px;
+	border: 0;
+	background-color: #88C80A;
+
+}
+.list div{
+	float:left;
+	width:600px;
+	height:38px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.num{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 3px;
+	color:#fff;
+	float:right;
+	margin-right:12px;
+	background: #e95c23;
+}
+
+.cont{
+	color: #888;
+	line-height: 38px;
+	background: url(../img/11.png);
+}
+.list input[type=button]{
+	float:right;
+	width:40px;
+	height:40px;
+	border: 0;
+	background-color: #D95447;
+	border-bottom:1px solid #888;
+	color:#fff;
+}
+.delAll{
+	width:90px;
+	line-height: 30px;
+	box-sizing:border-box;
+	background: #e95c23;
+	border: 0;
+	height: 35px;
+	margin-top:2px;
+	padding:0;
+	color: #fff;
+}
+@media screen and (max-width:768px){
+	section {
+	    width: 306px;
+	    margin: 20px auto;
+	}
+	.list li {
+    width:290px!important;
+    height: 40px;
+    background: #ddd;
+	}
+	.list div{
+	float:left;
+	width:210px!important;
+	height:38px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	font-size: 12px;
+	}
+	.nav-list input {
+    width: 200px;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 30px;
+    margin-top: 2px;
+    font-size: 12px;
+	}
+	.nav-list input[type=button] {
+	    width: 50px;
+	    box-sizing: border-box;
+	    padding: 0;
+	    height: 34px;
+	    background-color: #88C80A;
+	    border: 0;
+	    color: #fff;
+	    font-size: 12px;
+	}
+	.delAll {
+	    width: 50px;
+	    line-height: 30px;
+	    box-sizing: border-box;
+	    background: #e95c23;
+	    border: 0;
+	    height: 35px;
+	    margin-top: 2px;
+	    padding: 0;
+	    color: #fff;
+	    font-size: 12px;
+	}
+	hgroup h1 {
+    font-size: 25px!important;
+	}
+}
